@@ -9,3 +9,61 @@
   top: 30px;
   left: 30px;
 }
+
+.front{
+ min-height: 100vh;
+ background-image: url("./images/image1.jpg");
+ /* filter: brightness(0.505); */
+ background-repeat: no-repeat;
+ background-size: 100% auto;
+
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.front>h1, .front>h5{
+  text-align: center;
+  color: white;
+
+  z-index: 1;
+
+}
+
+.tint{
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* .frontImage{
+  width: 100%;
+  filter: brightness(0.505);
+} */
+
+.aboutContent{
+  height: 60vh;
+}
+
+.imageContainer{
+  /* position: relative; */
+  /* left: 30px; */
+  z-index: 1;
+  height: 100%;
+ 
+}
+.aboutImage {
+  height: 100%;
+}
+
+.cardOverlap{
+  position: relative;
+  right: 30px;
+  bottom:40px;
+  z-index: 0;
+  height: 120%;
+  width: 40%;
+
+}
