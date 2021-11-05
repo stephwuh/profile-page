@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Front from './components/Front';
 import About from './components/About';
 import Projects from './components/Projects';
+import Connect from './components/Connect';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Nav /> */}
       <About />
       <Projects />
+      <Connect />
     </div>
   );
 }
