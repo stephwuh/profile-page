@@ -5,17 +5,17 @@ import ".././App.css";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container gx-0">
       <div className="row">
         <div className="col">
           <h3>01.About</h3>
           <p>Who I am and What I want to Accomplish</p>
         </div>
       </div>
-      <div className="row aboutContent">
-        <div className="col-5 px-0 py-3 text-end imageContainer">
+      <div className="row flex-wrap aboutContent">
+        <div className="col-5 px-0 py-3 imageContainer">
           <img
-            className="img-fluid shadow p-2 mb-5 bg-body rounded aboutImage "
+            className="img-fluid shadow p-2 bg-body rounded aboutImage "
             src={image}
             alt="about-image"
           ></img>
