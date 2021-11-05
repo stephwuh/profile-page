@@ -5,7 +5,6 @@ const Front = () => {
     return(
         <>
         <div className='front'>
-            <div className='tint'></div>
             <h1>Stephen Wuh</h1>
             <h5>Web Developer/Software Engineer</h5>
         </div>

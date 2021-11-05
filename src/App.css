@@ -11,7 +11,7 @@
 }
 
 .front{
- min-height: 100vh;
+ height: 100vh;
  background-image: url("./images/image1.jpg");
  background-repeat: no-repeat;
  background-size: 100% auto;
@@ -21,6 +21,16 @@
  flex-direction: column;
 }
 
+@media only screen and (max-width: 985px) {
+  .front {
+    background-image: url("./images/image1-2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+}
+
+
 .front>h1, .front>h5{
   text-align: center;
   color: white;
@@ -28,19 +38,6 @@
   z-index: 1;
 
 }
-
-.tint{
-  background-color: black;
-  opacity: 0.5;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-/* .frontImage{
-  width: 100%;
-  filter: brightness(0.505);
-} */
 
 .aboutContent{
   /* height: 60vh; */
