@@ -21,11 +21,11 @@
  flex-direction: column;
 }
 
-@media only screen and (max-width: 985px) {
+@media only screen and (max-width: 1315px) {
   .front {
-    background-image: url("./images/image1-2.jpg");
+    background-image: url("./images/image1.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 1315px auto;
   }
 
 }
@@ -39,43 +39,37 @@
 
 }
 
-.aboutContent{
-  /* height: 60vh; */
-}
 
-.imageContainer{
+.aboutImage{
   position: relative;
   left: 15px;
   z-index: 1;
-  /* height: 100%; */
   width:470px;
 
 }
-.aboutImage {
-  /* height: 100% */
-}
 
-.cardOverlap{
+
+.aboutCard{
   z-index: 0;
-  /* height: 100%; */
   width: 470px;
   position: relative;
   right: 15px;
 }
 
 @media only screen and (max-width: 991px) {
-  .cardOverlap {
+  .aboutCard {
     position:static;
-    margin-left: 15px !important; 
+    margin-left: 30px !important; 
     height: 555px;
   }
-  /* .aboutContent{
-    justify-content: center;
-  } */
 }
 
 .toolBoxIcon{
   width: 2em;
+}
+
+.projBg{
+  background: #FAFAFA;
 }
 
 .carousel-control-prev-icon {
@@ -95,5 +89,27 @@
 }
 
 
+.connectCard{
+  z-index: 0;
+  width: 470px;
+  position: relative;
+  left: 15px;
+}
 
+
+.connectImage{
+  position: relative;
+  right: 15px;
+  z-index: 1;
+  width:470px;
+
+}
+
+@media only screen and (max-width: 991px) {
+  .connectCard {
+    position:static;
+    margin-right: 30px !important; 
+    height: 555px;
+  }
+}
 

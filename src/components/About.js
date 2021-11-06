@@ -5,36 +5,44 @@ import ".././App.css";
 
 const About = () => {
   return (
-    <div className="container gx-0">
+    <div className="container gx-0 py-5">
       <div className="row">
-        <div className="col">
-          <h3>01.About</h3>
+        <div className="col text-center">
+          <h2>01.About</h2>
           <p>Who I am and What I want to Accomplish</p>
         </div>
       </div>
-      <div className="row flex-wrap aboutContent">
-        <div className="col-5 px-0 py-3 imageContainer">
+      <div className="row flex-wrap justify-content-center">
+        <div className="col-5 px-0 py-3 aboutImage">
           <img
-            className="img-fluid shadow p-2 bg-body rounded aboutImage "
+            className="img-fluid shadow p-2 bg-body rounded"
             src={image}
             alt="about-image"
           ></img>
         </div>
-        <div className="col-7 card px-5 shadow p-3 bg-body rounded cardOverlap">
+        <div className="col-7 card px-5 shadow p-3 bg-body rounded aboutCard">
           <div className="card-body">
             <h5 className="card-title">
               I want to build things that makes life better for everyone.
             </h5>
+            <p class="card-text">
+                I know... It sounds cliche.
+                <br/>
+                But hear me out.
+                <br/>
+                <br/>
+                We are living in an age of dizzying technological advancement.
+              </p>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="col">
-          <h4>Stephen's Toolbox</h4>
+        <div className="col mt-5 mb-3 text-center">
+          <h3>Stephen's Toolbox</h3>
         </div>
       </div>
-      <div className="row">
-        <div className="col card shadow bg-body rounded py-4">
+      <div className="row justify-content-center ">
+        <div className="col card shadow bg-body rounded py-4 w-75">
 
            {/* desktop version */}
 

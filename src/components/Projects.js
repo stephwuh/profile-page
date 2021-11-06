@@ -25,17 +25,18 @@ const projectArr = [
 
 const Project = () => {
   return (
-    <div className="container">
+    <div className='projBg'>
+    <div className="container gx-0 py-5">
       <div className="row">
-        <div className="col">
-          <h3>Projects</h3>
+        <div className="col text-center">
+          <h3>02.Projects</h3>
           <p>What I've been working on</p>
         </div>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         {projectArr.map((project, index) => {
           return (
-            <div className="col-4 card px-5 shadow p-3 bg-body rounded mx-1" style={{width: '22rem'}} key={index}>
+            <div className="col-4 card px-5 shadow p-3 bg-body rounded mx-1 my-2" style={{width: '22rem'}} key={index}>
               <img
                 src={project.image}
                 className="card-img-top"
@@ -49,6 +50,7 @@ const Project = () => {
           );
         })}
       </div>
+    </div>
     </div>
   );
 };
