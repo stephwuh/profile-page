@@ -39,7 +39,7 @@ const Project = () => {
         <div className="row">
           <div className="col text-center">
             <h3>02.Projects</h3>
-            <p>What I've Worked on in the Past.</p>
+            <p>What I've Worked on in the Past</p>
           </div>
         </div>
         <div className="row justify-content-center">
