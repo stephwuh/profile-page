@@ -53,7 +53,7 @@ const Project = () => {
               <>
                 <div
                   className="col-4 card px-5 shadow p-3 bg-body rounded mx-1 my-2"
-                  style={{ width: "22rem" }}
+                  style={{ width: "33rem" }}
                   key={index}
                   onClick={eval(`handleClickOpen${index+1}`)}
                 >

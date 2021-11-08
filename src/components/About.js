@@ -54,10 +54,7 @@ const About = () => {
           >
            
 
-            <div
-              className="carousel-inner"
-              // className={window.innerWidth <= 576 ? "d-none" : ""}
-            >
+            <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row justify-content-center">
                   <div className="col-1 mx-3">
