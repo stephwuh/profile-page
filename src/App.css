@@ -97,28 +97,22 @@
   width: 30px;
 }
 
-
-.connectCard{
-  z-index: 0;
-  width: 470px;
-  position: relative;
-  left: 15px;
+.icons-container{
+  display: flex;
+  justify-content: center;
 }
 
 
-.connectImage{
-  position: relative;
-  right: 15px;
-  z-index: 1;
-  width:470px;
 
+.connect-icon{
+  width: 2rem;
+  margin: 0 0.3rem
 }
 
-@media only screen and (max-width: 991px) {
-  .connectCard {
-    position:static;
-    margin-right: 30px !important; 
-    height: 555px;
-  }
+.email{
+  
 }
+
+
+
 

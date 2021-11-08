@@ -1,6 +1,5 @@
 import React from "react";
 
-import image from ".././images/image4.jpg";
 
 const Connect = () => {
   return (
@@ -8,32 +7,38 @@ const Connect = () => {
       <div className="row">
         <div className="col text-center">
           <h3>03.Connect</h3>
-          <p>Let's get in touch</p>
+          <p>
+            If you want to get in touch regarding an employment opportunity or
+            just want to chat,
+            <br />
+            please feel free to reach out to me via email or the below social
+            media platforms
+          </p>
+          <a href="mailto:stephwuh@gmail.com" className='email'>stephwuh@gmail.com</a>
         </div>
       </div>
-      <div className="row flex-wrap-reverse justify-content-center">
-        <div className="col-7 card px-5 shadow p-3 bg-body rounded connectCard">
-          <div className="card-body">
-            <h5 className="card-title">
-              I want to build things that makes life better for everyone.
-            </h5>
-            <p class="card-text">
-              I know... It sounds cliche.
-              <br />
-              But hear me out.
-              <br />
-              <br />
-              We are living in an age of dizzying technological advancement.
-            </p>
-          </div>
-        </div>
-        <div className="col-5 px-0 py-3 connectImage">
+
+      <div className="icons-container mt-3">
+        <a href="https://github.com/stephwuh" target="_blank">
           <img
-            className="img-fluid shadow p-2 bg-body rounded"
-            src={image}
-            alt="connect-image"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            className="img-fluid connect-icon"
           />
-        </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/stephenwuh/" target="_blank">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+            className="img-fluid connect-icon"
+          />
+        </a>
+
+        <a href="https://www.facebook.com/pseudonym87/" target="_blank">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+            className="img-fluid connect-icon"
+          />
+        </a>
       </div>
     </div>
   );
