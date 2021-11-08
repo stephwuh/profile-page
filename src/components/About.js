@@ -30,7 +30,7 @@ const About = () => {
               I was led to web development through my interest in the science
               fiction genre. I was particularly interested in the way technology
               influences people and vice versa, which is often an important part
-              of science fiction stories. I realized I had a genuine passion for
+              of science fiction stories. So this interest led me to pick up my first programming language (JavaScript), but I realized I had a genuine passion for
               building software when I found myself engrossed in the process of
               envisioning a product, building it, and seeing it work before my
               very own eyes!
