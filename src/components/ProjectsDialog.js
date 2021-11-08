@@ -12,6 +12,8 @@ export default function ProjectsDialog(props) {
   };
 
   const newDetails = details.details.split("\n").map((str) => <li>{str}</li>);
+  
+  const newFeatures = details.features.split("\n").map((str) => <li>{str}</li>);
 
   const newImages = [...details.image];
   newImages.shift();
@@ -26,13 +28,12 @@ export default function ProjectsDialog(props) {
         </div>
         <div className="row justify-content-center">
           {details.video !== "" && (
-            <div className="col">
+            <div className="col mb-3">
               <div
                 style={{
                   padding: "50.42% 0 0 0",
                   position: "relative",
                   border: "1px solid #D3D3D3",
-                  // boxShadow: "2px 2px #D3D3D3",
                 }}
               >
                 <iframe
@@ -108,7 +109,21 @@ export default function ProjectsDialog(props) {
               </div>
             </div>
           )}
+        </div>    
+        <div className="row">
+          <div className="col">
+            <h5>Description</h5>
+            <ul>{newDetails}</ul>
+          </div>
         </div>
+
+        <div className="row">
+          <div className="col">
+            <h5>Features</h5>
+            <ul>{newFeatures}</ul>
+          </div>
+        </div>
+
 
         <div className="row">
           <div className="col">
@@ -116,12 +131,6 @@ export default function ProjectsDialog(props) {
             <ul>
               <li>{details.tech}</li>
             </ul>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <h5>Description</h5>
-            <ul>{newDetails}</ul>
           </div>
         </div>
         <div className="row">
