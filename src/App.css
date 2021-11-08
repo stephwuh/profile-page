@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-.hamburger{
+/* .hamburger{
   position: absolute;
   top: 30px;
   left: 30px;
-}
+} */
 
 .front{
  height: 100vh;
@@ -39,7 +39,6 @@
 
 }
 
-
 .front>h1, .front>h5{
   text-align: center;
   color: white;
@@ -60,7 +59,7 @@
 
 .aboutCard{
   z-index: 0;
-  width: 470px;
+  width: 700px;
   position: relative;
   right: 15px;
 }
@@ -73,9 +72,16 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .aboutCard {
+    overflow: scroll;
+  }
+}
+
 .toolBoxIcon{
   width: 2em;
 }
+
 
 .projBg{
   background: #FAFAFA;
@@ -109,10 +115,14 @@
   margin: 0 0.3rem
 }
 
-.email{
-  
+
+a:link, a:visited{
+  color: black;
+  text-decoration: underline;
 }
 
-
+a:hover {
+  color: blue;
+}
 
 

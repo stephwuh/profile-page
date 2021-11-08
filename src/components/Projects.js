@@ -9,7 +9,6 @@ const Project = () => {
   const [openProj2, setOpenProj2] = useState(false);
   const [openProj3, setOpenProj3] = useState(false);
 
-
   const handleClickOpen1 = () => {
     setOpenProj1(true);
   };
@@ -24,7 +23,6 @@ const Project = () => {
 
   const handleClose2 = () => {
     setOpenProj2(false);
-
   };
 
   const handleClickOpen3 = () => {
@@ -33,10 +31,7 @@ const Project = () => {
 
   const handleClose3 = () => {
     setOpenProj3(false);
-
   };
-
-
 
   return (
     <div className="projBg">
@@ -44,7 +39,7 @@ const Project = () => {
         <div className="row">
           <div className="col text-center">
             <h3>02.Projects</h3>
-            <p>What I've been working on</p>
+            <p>What I've Worked on in the Past.</p>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -55,24 +50,29 @@ const Project = () => {
                   className="col-4 card px-5 shadow p-3 bg-body rounded mx-1 my-2"
                   style={{ width: "33rem" }}
                   key={index}
-                  onClick={eval(`handleClickOpen${index+1}`)}
                 >
                   <img
                     src={project.image[0]}
                     className="card-img-top"
                     alt="project image"
                   />
-                  <div class="card-body">
+                  <div class="card-body px-0">
                     <h5 class="card-title">{project.title}</h5>
                     <p class="card-text">{project.description}</p>
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      onClick={eval(`handleClickOpen${index + 1}`)}
+                    >
+                      View
+                    </button>
                   </div>
-                  
                 </div>
                 <ProjectsDialog
-                    open={eval(`openProj${index+1}`)}
-                    onClose={eval(`handleClose${index+1}`)}
-                    details={project}
-                  />
+                  open={eval(`openProj${index + 1}`)}
+                  onClose={eval(`handleClose${index + 1}`)}
+                  details={project}
+                />
               </>
             );
           })}

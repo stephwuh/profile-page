@@ -1,5 +1,4 @@
 import React from 'react';
-import image from ".././images/image1.jpg";
 
 const Front = () => {
     return(

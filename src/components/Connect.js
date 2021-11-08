@@ -12,7 +12,7 @@ const Connect = () => {
             just want to chat,
             <br />
             please feel free to reach out to me via email or the below social
-            media platforms
+            media platforms.
           </p>
           <a href="mailto:stephwuh@gmail.com" className='email'>stephwuh@gmail.com</a>
         </div>

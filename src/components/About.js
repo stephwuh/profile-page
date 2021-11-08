@@ -9,7 +9,7 @@ const About = () => {
       <div className="row">
         <div className="col text-center">
           <h2>01.About</h2>
-          <p>Who I am and What I want to Accomplish</p>
+          <p>Who I am, and What I Want to Accomplish</p>
         </div>
       </div>
       <div className="row flex-wrap justify-content-center">
@@ -23,16 +23,36 @@ const About = () => {
         <div className="col-7 card px-5 shadow p-3 bg-body rounded aboutCard">
           <div className="card-body">
             <h5 className="card-title">
-              I want to build things that makes life better for everyone.
+              I am a full-stack web developer who wants to build things that
+              make life better for everyone.
             </h5>
-            <p class="card-text">
-                I know... It sounds cliche.
-                <br/>
-                But hear me out.
-                <br/>
-                <br/>
-                We are living in an age of dizzying technological advancement.
-              </p>
+            <p className="card-text">
+              I was led to web development through my interest in the science
+              fiction genre. I'm particularly interested in the way technology
+              influences people and vice versa, which is often an important part
+              of science fiction stories. I realized I had a genuine passion for
+              building software when I found myself engrossed in the process of
+              envisioning a product, building it, and seeing it work before my
+              very own eyes!
+              <em>
+                {" "}
+                Creating something that does something cool is truly very
+                satisfying and empowering.
+              </em>
+            </p>
+            <p className="card-text">
+              However, I also realize that with all the benefits of technology
+              comes harmful side effects as well, intended or unintended, which
+              pose a threat to the global community, i.e. , global warming,
+              social inequality, cyber security threats, etc. I believe we need
+              to be good stewards of the tools we have at our disposal if we are
+              to help mitigate the global challanges of our times and
+              collectively move towards a more properous future.
+            </p>
+            <p className="card-text">
+              Prior to becoming a web developer, I worked in the automotive
+              industry as a financial planning analyst after graduating college with a degree in economics. During my spare time, I like to consume stories (fiction/non-fiction) in various formats (books/audio/video) and go to the gym to run and lift weights.   
+            </p>
           </div>
         </div>
       </div>
@@ -43,8 +63,7 @@ const About = () => {
       </div>
       <div className="row justify-content-center ">
         <div className="col card shadow bg-body rounded py-4 w-75">
-
-           {/* desktop version */}
+          {/* desktop version */}
 
           <div
             id="carouselExampleIndicators"
@@ -52,8 +71,6 @@ const About = () => {
             data-bs-ride="false"
             // data-bs-pause='true'
           >
-           
-
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row justify-content-center">
@@ -156,8 +173,7 @@ const About = () => {
             </button>
           </div>
 
-        {/* mobile version */}
-
+          {/* mobile version */}
 
           <div
             id="carouselExampleIndicators2"
@@ -165,10 +181,6 @@ const About = () => {
             data-bs-ride="false"
             // data-bs-pause='true'
           >
-
-
-           
-
             <div
               className="carousel-inner "
               // className={window.innerWidth > 576 ? "d-none" : ""}
@@ -284,8 +296,6 @@ const About = () => {
               ></span>
             </button>
           </div>
-
-
         </div>
       </div>
     </div>
