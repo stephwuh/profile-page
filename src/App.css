@@ -52,7 +52,7 @@
   position: relative;
   left: 15px;
   z-index: 1;
-  width: 430px;
+  width: 470px;
 
 }
 
@@ -64,7 +64,7 @@
   right: 15px;
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1399px) {
   .aboutCard {
     position:static;
     margin-left: 30px !important; 
