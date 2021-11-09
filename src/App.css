@@ -64,7 +64,7 @@
   right: 15px;
 }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1359px) {
   .aboutCard {
     position:static;
     margin-left: 30px !important; 
