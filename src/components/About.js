@@ -13,7 +13,7 @@ const About = () => {
         </div>
       </div>
       <div className="row flex-wrap justify-content-center">
-        <div className="col-5 px-0 py-3 aboutImage">
+        <div className="col-5 px-0 py-5 aboutImage">
           <img
             className="img-fluid shadow p-2 bg-body rounded"
             src={image}
