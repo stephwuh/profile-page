@@ -23,14 +23,11 @@ const About = () => {
         <div className="col-7 card px-5 shadow p-3 bg-body rounded aboutCard">
           <div className="card-body">
             <h5 className="card-title">
-              I am a full-stack web developer who wants to build things that
+              I am a full-stack web developer who wants to build web applications that
               make life better for everyone.
             </h5>
             <p className="card-text">
-              I was led to web development through my interest in the science
-              fiction genre. I was particularly interested in the way technology
-              influences people and vice versa, which is often an important part
-              of science fiction stories. So this interest led me to pick up my first programming language (JavaScript), but I realized I had a genuine passion for
+            My interest in web development grew from my love for the science fiction genre, particularly stories about the interplay between mankind and technology. So this interest led me to pick up my first programming language (JavaScript), but I realized I had a genuine passion for
               building software when I found myself engrossed in the process of
               envisioning a product, building it, and seeing it work before my
               very own eyes!
@@ -44,14 +41,10 @@ const About = () => {
               However, I also realize that with all the benefits of technology
               comes harmful side effects as well, intended or unintended, which
               pose a threat to the global community, i.e. , global warming,
-              social inequality, cyber security threats, etc. I believe we need
-              to be good stewards of the tools we have at our disposal if we are
-              to help mitigate the global challanges of our times and
-              collectively move towards a more properous future.
+              social inequality, cyber security threats, etc. Given this powerful tool, I strive to be a good steward of this technology to play a part in mitigating global challenges and moving towards a more prosperous future.
             </p>
             <p className="card-text">
-              Prior to becoming a web developer, I worked in the automotive
-              industry as a financial planning analyst after graduating college with a degree in economics. During my spare time, I like to consume stories (fiction/non-fiction) in various formats (books/audio/video) and go to the gym to run and lift weights.   
+            Prior to becoming a web developer, I graduated from the University of Michigan with a BA in Economics and worked as a financial planning analyst in the automotive industry. In my spare time, I like to consume stories (fiction/non-fiction) in various formats (books/audio/video) and hit the gym to run and lift weights.   
             </p>
           </div>
         </div>
