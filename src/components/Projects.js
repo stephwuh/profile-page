@@ -53,19 +53,29 @@ const Project = () => {
                 >
                   <img
                     src={project.image[0]}
-                    className="card-img-top"
+                    className="card-img-top mt-3"
                     alt="project image"
                   />
-                  <div class="card-body px-0">
-                    <h5 class="card-title">{project.title}</h5>
-                    <p class="card-text">{project.description}</p>
-                    <button
-                      type="button"
-                      className="btn btn-secondary"
-                      onClick={eval(`handleClickOpen${index + 1}`)}
-                    >
-                      View
-                    </button>
+                  <div className="card-body px-0">
+                    <h5 className="card-title">{project.title}</h5>
+                    <p className="card-text">{project.description}</p>
+                    <div className="d-flex justify-content-between">
+                      <button
+                        type="button"
+                        className="btn btn-secondary card-button"
+                        onClick={eval(`handleClickOpen${index + 1}`)}
+                      >
+                        Details
+                      </button>
+                      <a
+                        role="button"
+                        className="btn btn-primary live card-button"
+                        href={project.website}
+                        target="_blank"
+                      >
+                        Live
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <ProjectsDialog

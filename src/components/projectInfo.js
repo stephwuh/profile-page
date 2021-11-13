@@ -20,6 +20,8 @@ const projectInfo = [
 
     github: "https://github.com/stephwuh/digitalCloset",
 
+    website: "https://digital-closet.herokuapp.com/",
+
     tech: "React, Redux, Cloudinary, Node.js, Express, Bcrypt, Sequelize ORM, PostgreSQL",
 
     features: "Upload and save images of clothes. \n Group images to form outfits and save for future reference. \n Provides weather information to help plan outfits. \n Provides outfit recommendations based on clothes in user's digital closet."
@@ -31,6 +33,7 @@ const projectInfo = [
     description: "Allows users to track their job applications.",
     details: "I worked on this seemingly simple project to practice test driven development and unit testing with Jest and React Testing Library, as well as practice using Bootstrap to easily apply styling and mobile responsiveness. \n Regarding test driven development, I made sure to adhere to the following process: (1) write failing unit tests of test cases based on software requirements using the arrange-act-assert pattern, (2) write production code to make the unit test pass, (3) refactor to eliminate duplicate code, etc. (4) repeat steps 1~3. \n Each unit test tests for a specific behavior, whether it's making sure the input text box renders as planned or testing to see if the filter function works properly. In order to drown out noise that might affect the outcome of the test, I isolate each test so they are not dependent on each other and control for external dependencies using mock data and functions.",
     github: "https://github.com/stephwuh/khaki-apps",
+    website: "https://job-app-trkr.herokuapp.com/",
     tech: "React, Material UI, Bootstrap, Jest, React Testing Library, JSON Server",
     features: "Create, save, delete job applications. \n Get an overview of all job applications from the job application board. \n Filter saved job applications from job application board with filter buttons or text inputed by the user."
   },
@@ -43,6 +46,7 @@ const projectInfo = [
     details:
       "As my very first project, I wanted to make a to-list app that was a bit more visually appealing.",
     github: "https://github.com/stephwuh/Sticky-Note-Todo-List",
+    website: "https://sticky-note-to-do-list.herokuapp.com/",
     tech: "JavaScript, Node.js, Express",
     features: "Create, save, cross off, and delete to-do items"
   },

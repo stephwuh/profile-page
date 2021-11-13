@@ -124,4 +124,12 @@ a:hover {
   color: blue;
 }
 
+.live{
+  text-decoration: none !important;
+  color: white !important;
+}
 
+
+.card-button{
+  width: 5rem;
+}
