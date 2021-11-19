@@ -27,7 +27,7 @@ const About = () => {
               make life better for everyone.
             </h5>
             <p className="card-text">
-            My interest in web development grew from my love for the science fiction genre, particularly stories about the interplay between mankind and technology. So this interest led me to pick up my first programming language (JavaScript), but I realized I had a genuine passion for
+            My interest in web development grew from my love for the science fiction genre, particularly stories about the interplay between mankind and technology. This interest led me to pick up my first programming language (JavaScript), but I realized I had a genuine passion for
               building software when I found myself engrossed in the process of
               envisioning a product, building it, and seeing it work before my
               very own eyes!
