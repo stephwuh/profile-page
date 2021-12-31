@@ -8,6 +8,7 @@ const Project = () => {
   const [openProj1, setOpenProj1] = useState(false);
   const [openProj2, setOpenProj2] = useState(false);
   const [openProj3, setOpenProj3] = useState(false);
+  const [openProj4, setOpenProj4] = useState(false);
 
   const handleClickOpen1 = () => {
     setOpenProj1(true);
@@ -33,6 +34,14 @@ const Project = () => {
     setOpenProj3(false);
   };
 
+  const handleClickOpen4 = () => {
+    setOpenProj4(true);
+  };
+
+  const handleClose4 = () => {
+    setOpenProj4(false);
+  };
+
   return (
     <div className="projBg">
       <div className="container gx-0 py-5">
@@ -53,12 +62,12 @@ const Project = () => {
                 >
                   <img
                     src={project.image[0]}
-                    className="card-img-top mt-3"
+                    className="card-img-top mt-3 h-50"
                     alt="project image"
                   />
                   <div className="card-body px-0">
                     <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text">{project.description}</p>
+                    <p className="card-text h-50">{project.description}</p>
                     <div className="d-flex justify-content-between">
                       <button
                         type="button"
@@ -70,7 +79,7 @@ const Project = () => {
                       <a
                         role="button"
                         className="btn btn-primary live card-button"
-                        href={project.website}
+                        href={project.website === "" ? null : project.website}
                         target="_blank"
                       >
                         Live

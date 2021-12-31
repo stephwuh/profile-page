@@ -7,8 +7,27 @@ import dc5 from ".././images/project/digitalCloset/dc5.PNG";
 import jat1 from ".././images/project/applicationTracker/jat1.PNG";
 import jat2 from ".././images/project/applicationTracker/jat2.PNG";
 import td1 from ".././images/project/stickyNote/td1.PNG";
+import nj1 from ".././images/project/newsJunkies/nj1.JPG";
+import nj2 from ".././images/project/newsJunkies/nj2.JPG";
 
 const projectInfo = [
+  {
+    image: [nj1, nj2],
+    video: "",
+    title: "News Aggregator (Work-in-Progress)",
+
+    description: "News aggreator that helps users develop healthy news consumption habits.",
+
+    details: "You hear alot on the news about social media algorithms playing a major part in polarizing and radicalizing its users by recommending content to maximize user engagement. This can prevent users from getting information from a wide range of sources, leading them to develop a very narrow perspective on things. So I thought it would be a productive endeavor to help mitigate that by creating a news aggregator that recommends news articles from accross the media bias spectrum (e.g. left, left center, center, right center, right), so users can get a fuller picture on important issues and hopefully develop more informed opinions.\n I utilize Bing's News API to gather news articles from various sources and Allsides' media bias data to categorize those news article according to its media bias. I then track the media bias of the articles the users read to calculate where the user sits on the media bias spectrum. If the user is leaning more towards the left, I recommend articles from the right and center, so the user's media bias comes towards the center.",
+
+    github: "https://github.com/stephwuh/News-Junkies",
+
+    website: "",
+
+    tech: "React, JavaScript, Node.js, Express, Bcrypt, Axios, Sequelize ORM, PostgreSQL",
+
+    features: "Select news outlets you want your news from, get news from different categories (business, politics, etc.), get information on where you sit on the media bias spectrum"
+  },
   {
     image: [dc1, dc2, dc3, dc4, dc5],
     video: "https://player.vimeo.com/video/639334937?h=5ce8d67c41&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
